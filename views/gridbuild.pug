@@ -14,7 +14,7 @@ block content
         p Cols should be in between 1 and 10
   - }
   - if((rows>=1 && rows<=10)&&(cols>=1 && cols<=10)) {
-    table#outer(class="table table-responsive")
+    table#outer(class="table table-striped table-bordered table-hover table-responsive")
         - for(let i=0;i<rows;i++){
             tr#middle
                 - for(let j=0;j<cols;j++){
